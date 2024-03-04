@@ -32,3 +32,5 @@ Este é um simples programa em Node.js que calcula o Índice de Massa Corporal (
 
 ![Obesidade](https://hypescience.com/wp-content/uploads/2015/08/obesidade-mitos.gif)
 
+## ℹ️ Aviso
+- Há um commit com o código comentado para melhor clareza.
