@@ -9,6 +9,7 @@ function calculateBMI(weight, height) {
 
 // Função assíncrona principal para lidar com o cálculo do IMC e salvar os dados em um arquivo JSON.
 async function handleBMI() {
+
     // Pergunta ao usuário o nome.
     const name = readlineSync.question('What\'s your name? ');
     // Pergunta ao usuário o peso e converte para float.
@@ -19,6 +20,7 @@ async function handleBMI() {
     // Calcula o IMC usando a função calculateBMI.
     const bmi = calculateBMI(weight, height);
     let situation;
+
     // Determina a situação do IMC com base em intervalos padrão.
     if (bmi < 18.5)  {
         situation = 'Underweight';
@@ -91,5 +93,5 @@ async function handleBMI() {
     }
 }
 
-// Chama a função principal para iniciar o processo de cálculo do IMC e salvamento dos dados.
+// Chama a função principal para iniciar o processo de cálculo do IMC e salvamento dos dados obrigado!! :)
 handleBMI();
