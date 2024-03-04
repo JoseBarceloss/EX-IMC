@@ -1,37 +1,26 @@
-# Calculadora de IMC em Node.js
+# Zoo-Function
+Este projeto foi desenvolvido em JavaScript e utiliza uma variedade de habilidades e tecnologias para lidar com dados de um zoológico. Abaixo estão algumas das principais habilidades e tecnologias empregadas:
+<img src="https://z2r3u4a8.stackpathcdn.com/wp-content/uploads/2015/09/san-diego-zoo-entrada-1024x682.jpg" alt="Entrance to the Oakland Zoo" width="900">
 
-![Obesidade](https://www.saudebemestar.pt/media/89347/obesidade.jpg)
+- **JavaScript (Node.js):**
+  - Utilização do Node.js para desenvolvimento de aplicações em JavaScript.
+  - Manipulação de módulos e importação/exportação de funcionalidades.
+  - Trabalho com objetos, arrays e iteração sobre dados.
 
-Este é um simples programa em Node.js que calcula o Índice de Massa Corporal (IMC) de uma pessoa e armazena os dados em um arquivo JSON. O programa foi desenvolvido como parte de um exercício prático no curso da Trybe, oferecendo aprendizado sobre os módulos `fs`, `readline` e também sobre `module.exports` e `require`.
+- **Programação Funcional:**
+  - Utilização de conceitos de programação funcional, como funções de ordem superior, map, filter e reduce.
 
-## Funcionalidades
+- **Manipulação de Dados:**
+  - Trabalho com dados estruturados, como objetos e arrays, para representar informações sobre animais, funcionários e horários de funcionamento do zoológico.
+  - Implementação de funções para calcular estatísticas e realizar filtragens sobre esses dados.
 
-- Calcula o IMC com base no peso e altura fornecidos pelo usuário.
-- Classifica o IMC em uma das categorias comuns (abaixo do peso, peso normal, acima do peso, etc.).
-- Armazena os dados do cálculo, incluindo peso, altura, IMC e situação, em um arquivo JSON chamado `data.json`.
+- **Validação de Entrada de Dados:**
+  - Implementação de funções para validar e verificar a integridade dos dados de entrada, como validar o formato de horários e a existência de funcionários.
 
-## Pré-requisitos
+- **Documentação de Código:**
+  - Documentação adequada de funções e módulos para facilitar o entendimento do código por outros desenvolvedores, incluindo descrições claras de parâmetros, retornos e comportamento esperado.
 
-- Node.js instalado no seu sistema.
+- **Testes Unitários (Opcional):**
+  - Possibilidade de incluir testes unitários para verificar a corretude das funções implementadas e garantir a robustez do código.
 
-## Como executar
-
-1. Clone este repositório ou faça o download do código.
-2. Abra um terminal na pasta do projeto.
-3. Execute o comando `npm install` para instalar as dependências.
-4. Execute o comando `npm run bmi` para iniciar o programa.
-5. Siga as instruções no terminal para fornecer o peso e altura.
-6. Os resultados serão exibidos no terminal e também serão salvos no arquivo `data.json`.
-
-## Tecnologias utilizadas
-
-- Node.js
-- Módulo `fs` para operações de sistema de arquivos.
-- Módulo `readline` para interação com o usuário via linha de comando.
-- `module.exports` e `require` para modularização do código.
-
-![Obesidade](https://hypescience.com/wp-content/uploads/2015/08/obesidade-mitos.gif)
-
-## ℹ️ Aviso
-
-- O código fonte inclui comentários para melhor clareza e entendimento do seu funcionamento. Se preferir uma versão sem comentários, você pode encontrar em um commit anterior.
+Essas são algumas das habilidades e tecnologias que foram aprendidas e aplicadas neste projeto. O código fonte está disponível neste repositório para referência e aprendizado adicional.
