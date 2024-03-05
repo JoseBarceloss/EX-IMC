@@ -1,5 +1,6 @@
 # Calculadora de IMC em Node.js
 ![Obesidade](https://www.saudebemestar.pt/media/89347/obesidade.jpg)
+
 Este é um simples programa em Node.js que calcula o Índice de Massa Corporal (IMC) de uma pessoa e armazena os dados em um arquivo JSON. O programa foi desenvolvido como parte de um exercício prático no curso da Trybe, oferecendo aprendizado sobre os módulos `fs`, `readline` e também sobre `module.exports` e `require`.
 ## Funcionalidades
 - Calcula o IMC com base no peso e altura fornecidos pelo usuário.
